@@ -6,5 +6,11 @@
   "dependencies": {
     "apollo-server": "^2.3.1",
     "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
   }
 }
